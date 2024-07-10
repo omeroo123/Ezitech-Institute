@@ -755,3 +755,134 @@ background-color: #9a9a9a;
     padding-bottom: 30px;
 }
 
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+
+    .topHeader , .heroSectionEnd{
+        display: none;
+    }
+
+
+
+    body{
+        align-items: center;
+    }
+    .fading-text {
+        font-size: 30px;
+    }
+
+   .topHeader{
+    display: none;
+   }
+    .background-container {
+        height: 80vh;
+    }
+
+    .headerSection header ul {
+        flex-direction: row;
+        align-items: center;
+    }
+    .headerSection header ul li{
+        display: none;
+    }
+
+    .headerSection header ul img {
+        width: 80px;
+        margin: 20px 0;
+    }
+
+    .heroSection h1 {
+        font-size: 30px;
+        width: 80vw;
+    }
+
+    .heroSection p {
+        font-size: 16px;
+    }
+
+    .search-box {
+        margin-top: 20px;
+    }
+
+    .search-input {
+        width: 80%;
+    }
+
+    .heroSectionEnd img {
+        width: 150px;
+    }
+
+    .gif-Section img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .courses-container {
+        margin: 50px auto;
+    }
+
+    .course-box {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .course-card {
+        width: 90%;
+        margin: 20px 10px;
+    }
+
+    .cta-Section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-content h1 {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .cta-content p {
+        width: 90%;
+    }
+
+    .cta-image img {
+        width: 70%;
+    }
+    .cta-content{
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .card-inner button {
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    .container-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widget, .widget-2 {
+        width: 90%;
+    }
+    .footer-pic img{
+        width: 70%;
+    }
+    .footer-pic h1{
+        font-size: 40px;
+    }
+    
+    .footer-copyrights {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+
